@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_ruben_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/74ec74ec-4931-484f-8896-365e85fc4449/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-ruben-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>0294ff25-e7eb-4e76-a2e6-43f1192b59f6</UserSecretsId>
   </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include ="Microsoft.ApplicationInsights.AspNetCore"
+		 Version="2.21.0"/>
+	</ItemGroup>
 
 </Project>
